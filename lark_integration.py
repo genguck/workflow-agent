@@ -30,7 +30,7 @@ class LarkIntegration:
 
 ---
 
-*报告由AI智能体工作流自动化系统自动生成*
+*报告由AI智能体私域流量运营工作流自动化系统自动生成*
 """
         
         return doc_content
@@ -49,7 +49,7 @@ class LarkIntegration:
 
 ---
 
-*报告由AI智能体工作流自动化系统自动生成*
+*报告由AI智能体私域流量运营工作流自动化系统自动生成*
 """
         
         return doc_content

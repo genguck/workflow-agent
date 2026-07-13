@@ -16,7 +16,7 @@ from data_analyzer import DataAnalyzer
 class WorkflowCLI:
     def __init__(self):
         self.parser = argparse.ArgumentParser(
-            description='AI智能体工作流自动化系统',
+            description='AI智能体私域流量运营工作流自动化系统',
             formatter_class=argparse.RawDescriptionHelpFormatter,
             epilog="""
 使用示例:

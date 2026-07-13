@@ -38,7 +38,7 @@ class NaturalLanguageInterface:
     
     def run(self):
         print("=" * 60)
-        print("  AI智能体工作流自动化系统 - 自然语言交互")
+        print("  AI智能体私域流量运营工作流自动化系统 - 自然语言交互")
         print("=" * 60)
         print("\n你可以用自然语言告诉我你想做什么，例如：")
         print("  - 启动数据分析工作流")
@@ -62,7 +62,7 @@ class NaturalLanguageInterface:
     
     def process_input(self, user_input: str) -> str:
         if self._is_exit_command(user_input):
-            return "再见！感谢使用工作流自动化系统。"
+            return "再见！感谢使用AI智能体私域流量运营工作流自动化系统。"
         
         if self._is_help_command(user_input):
             return self._get_help_message()
